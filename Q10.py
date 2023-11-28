@@ -1,4 +1,6 @@
-x,y,z=map(int,input().split())
+x = int(input('enter number 1: '))
+y = int(input('enter number 2: '))
+z = int(input('enter number 3: '))
 if x<y and x<z:
     if y>z:
         print(y)
